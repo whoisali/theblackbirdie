@@ -777,10 +777,14 @@ section
         position: absolute;
         left: 50%;
         top: 50%;
-        height: 20px;
-        width: 20px;
+        
        
         text-align: center;
+    }
+    .main-image
+    {
+        height: 20px;
+        width: 20px;
     }
     .mobile-social
     {

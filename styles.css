@@ -786,6 +786,10 @@ section
         height: 28px;
         width: 28px;
     }
+    .thirdpage
+    {
+        font-size: 4 rem;
+    }
     .mobile-social
     {
         display: flex;

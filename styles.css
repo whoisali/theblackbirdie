@@ -280,6 +280,7 @@ section
     font-weight: 800;
     
     
+    
 }
 
 .main-image
@@ -362,7 +363,11 @@ section
     font-size: 1.5rem;
     text-transform: lowercase;
     margin-top: 23vh;
-    color: #D5D95B;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+	color: transparent;
+    -moz-background-clip: text;
+	-webkit-background-clip: text;
 }
 
 .nav-list.active {
@@ -615,13 +620,14 @@ section
     padding-top: 24px;
     padding-left: 24px;
     
-    
-    
     float: left;
     color: #bfbfbf;
     font-size: 14px;
-    background-color:black ;
-    
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+	color: transparent;
+    -moz-background-clip: text;
+	-webkit-background-clip: text;
     font-weight: 500;
     
 
@@ -780,15 +786,6 @@ section
         
        
         text-align: center;
-    }
-    .main-image
-    {
-        height: 28px;
-        width: 28px;
-    }
-    .thirdpage
-    {
-        font-size: 4 rem;
     }
     .mobile-social
     {

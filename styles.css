@@ -432,7 +432,7 @@ ul li
 {
     width: 100%;
     height: 100vh;
-    background: url("images/chalo-gallardo-kW-yPqdm8Fs-unsplash.jpg") center no-repeat;
+    background: url("images/chalo-gallardo-kW-yPqdm8Fs-unsplash-min.jpg") center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -581,7 +581,7 @@ ul li
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ),url("images/stephen-leonardi-Oah3N6O1lD0-unsplash.jpg") center no-repeat;
+      ),url("images/stephen-leonardi-Oah3N6O1lD0-unsplash-min.jpg") center no-repeat;
     
     background-size: cover;
     width: 100%;
@@ -685,7 +685,7 @@ input[type=text], select, textarea {
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ),url("images/zola-as-4mGgkzWazPc-unsplash.jpg") center no-repeat;
+      ),url("images/zola-as-4mGgkzWazPc-unsplash-min.jpg") center no-repeat;
     background-size: cover;
     color: white;
     font-family: 'Montserrat', sans-serif;

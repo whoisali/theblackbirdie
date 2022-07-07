@@ -599,8 +599,10 @@ ul li
     width: 70vw;
     text-align: center;
     
-    display: block;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 .contactinfo
 {
@@ -623,22 +625,28 @@ input[type=text], select, textarea {
     background-color: grey;
     color: white;
     padding: 12px 20px;
+    width: 100%;
     border: none;
     border-radius: 2px;
     cursor: pointer;
-    align-items: center;
+    
+
   }
   
   input[type=submit]:hover {
     background-color: rgb(139, 193, 244);
   }
 .button2
-{
+{   
     align-items: center;
     text-align: center;
     font-family: Montserrat;
     text-transform: uppercase;
     font-size: 1.1rem;
+
+    
+    
+}
 }
 .container5 {
     border-radius: 5px;
@@ -652,6 +660,7 @@ input[type=text], select, textarea {
 .flex-container {
     display: flex;
     width: 70vw;
+    
 }
 
 .flex-child {
@@ -710,7 +719,8 @@ input[type=text], select, textarea {
     font-size: 1rem;
     text-decoration: none;
     color: rgb(198, 195, 195);
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    
 
 }
 /* Hero end*/

@@ -572,22 +572,129 @@ ul li
     text-transform: uppercase;
     position: relative;
     top: 90%;
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
-    letter-spacing: 0mm;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 .thirdpage
 {
-    background: url("images/blackmore.jpg") center no-repeat;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url("images/stephen-leonardi-Oah3N6O1lD0-unsplash.jpg") center no-repeat;
+    
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-color: whitesmoke;
-    font-family: Soul Italics;
-    font-size: 8rem;
+    display: inline-block;
     color: rgb(190, 190, 190);
     font-weight: bolder;
+    justify-content: center;
+    display: inline-flex;
 }
+
+.container3
+{
+    width: 70vw;
+    text-align: center;
+    
+    display: block;
+    justify-content: center;
+}
+.contactinfo
+{
+    width: 20vw;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(139, 193, 244);
+  }
+.button2
+{
+    align-items: center;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.container5 {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    width: 30vw;
+    float: right;
+    
+  }
+
+.flex-container {
+    display: flex;
+    width: 70vw;
+}
+
+.flex-child {
+    
+    flex: 1;
+    
+    
+}  
+.flex-child:nth-child(2)
+{
+    background-color: rgb(5, 5, 5);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 50px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  
+}
+.flex-child:first-child {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url("images/zola-as-4mGgkzWazPc-unsplash.jpg") center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 50px;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+} 
+
+.flex-child:first-child h6
+{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 .mobile-social
 {
     display: none;
@@ -638,18 +745,25 @@ ul li
 {   
     float: right;    
     
-    padding-top: 17px;
+    padding-top: 23px;
     
-    top: 30px;
+    
     background-color: #000;
 }
 
-.socialtext img
+.socialtext a
 {
-    padding-right: 17px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 25px;
     float: right;
-    height: 25px;
+    top: 500%;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(198, 195, 195);
+    text-transform: uppercase;
 }
+
 
 /**************** Scroll Indicator **********************/
 .progress-section
@@ -788,6 +902,27 @@ ul li
         
        
         text-align: center;
+    }
+    .hero .latestrelease h1
+    {
+        font-size: 3rem;
+    }
+    .flex-container
+    {
+        display: block;
+        
+    }
+    .flex-child:first-child
+    {
+
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .flex-child:nth-child(2)
+    {
+        
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
     .mobile-social
     {
